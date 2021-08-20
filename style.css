@@ -1,0 +1,51 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.heading{
+    max-width: 100%;
+    padding: 30px;
+    background: lightseagreen;
+    text-align: center;
+    box-shadow: 2px 2px 10px 10px grey;
+}
+.content{
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+.input{
+    margin: 60px auto;
+    
+}
+#usrinput{
+    width: 80%;
+    height: 40px;
+}
+.input input{
+    text-align: center;
+    font-size: 30px;
+}
+.btn{
+    margin: 20px auto;
+    width: 80%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.btn button{
+    width: 80px;
+    background: lightseagreen;
+    font-size: 40px; 
+}
+.btn button:hover{
+    box-shadow: 2px 2px 4px 2px grey;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.equation p{
+    font-size: 30px;
+}
+.outputresult p{
+    font-size: 3em;
+}
